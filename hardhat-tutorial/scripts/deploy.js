@@ -33,3 +33,6 @@ main()
     console.error(error);
     process.exit(1);
   });
+
+//VERIFY SOURCE CODE ON ETHERSCAN
+//npx hardhat verify --network goerli 0x816381b1A4261194fDdA93EF00663389a60CF8AE "https://nft-collection-azurekn1ght.vercel.app/api/" "0xf51CCB5D3B54a5b4d08121945A6D64D9524894b9"
